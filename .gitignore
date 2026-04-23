@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+.DS_Store
+ncu_regulations.db
+benchmark_data_ta.json
+venv/
+.venv/
+hf_model_cache
