@@ -2,7 +2,9 @@
 ### Knowledge Graph + Local Large Language Model
 
 **Course:** Agentic AI
+
 **Student:** 113522074 張祐瑜
+
 **GitHub:** <https://github.com/YYChang34/Assignment-4>
 
 ---
@@ -413,7 +415,9 @@ Both failures are attributable to retrieval-side weaknesses rather than LLM hall
 ### 9.1 Q12 — Physical Education Semester Requirement
 
 **Question:** How many semesters of Physical Education (PE) are required for undergraduate students?
+
 **Expected:** 4 semesters (one per year over four years of undergraduate study)
+
 **System answer:** *"a required PE course must be completed within one semester"* (incorrect)
 
 **Retrieved Rule Nodes:**
@@ -431,7 +435,9 @@ Both failures are attributable to retrieval-side weaknesses rather than LLM hall
 ### 9.2 Q15 — Undergraduate Study Period Extension
 
 **Question:** What is the maximum extension period for undergraduate study duration?
+
 **Expected:** 2 years (up to two additional years beyond the standard study period)
+
 **System answer:** *"The maximum extension period for undergraduate study duration is one year"* (incorrect — this is the graduate extension limit)
 
 **Retrieved Rule Nodes:**
@@ -512,7 +518,6 @@ Add a minimum score threshold; respond "I could not find a relevant regulation" 
 
 - **Python 3.11** (strict requirement)
 - **Docker Desktop** (to run Neo4j locally)
-- Internet access on first run (to download the HuggingFace model; subsequent runs are fully offline)
 
 ### 1. Start Neo4j via Docker
 
