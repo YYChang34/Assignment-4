@@ -6,21 +6,7 @@ A question-answering system for National Central University (NCU) academic regul
 
 ## System Architecture
 
-```
-PDF Regulations
-      |
-  setup_data.py   -- pdfplumber + regex parsing
-      |
-  SQLite (ncu_regulations.db)
-      |
-  build_kg.py     -- Cypher node/relationship creation
-      |
-  Neo4j Knowledge Graph
-      |
-  query_system.py -- entity extraction + 3-tier retrieval + LLM generation
-      |
-  auto_test.py    -- LLM-as-Judge benchmark (20 questions)
-```
+![System Architecture](screenshots/system%20architecture.png)
 
 ### Knowledge Graph Schema
 
